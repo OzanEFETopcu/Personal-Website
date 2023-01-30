@@ -10,11 +10,11 @@
     flex-flow: wrap;
     flex-direction: column;
     height: 110vh;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .row{
-    height: 36vh;
+    height: 30vh;
 }
 
 #project1_div{
@@ -27,5 +27,5 @@
 
 #project1_img{
     border-radius: 15%;
-    height: 36vh;
+    height: 30vh;
 }
