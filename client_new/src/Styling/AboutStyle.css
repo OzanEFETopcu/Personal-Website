@@ -1,0 +1,44 @@
+#about{
+
+    height: 110vh;
+    background: #000000;
+
+}
+
+#aboutimg{
+
+    align-self: center;
+    float: right;
+    height: 60vh;
+    border-radius: 50%;
+
+}
+
+#aboutContainer1{
+
+    display: flex;
+    flex-flow: wrap;
+    position:absolute;
+    height: 92.0%;
+
+}
+
+#about_row1{
+    height: 100%;
+}
+
+#about_imageDiv{
+
+    display: flex;
+    padding-bottom:0;
+    margin-bottom: 0;
+
+}
+
+#about_col2{
+
+}
+
+#about_col1{
+
+}

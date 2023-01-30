@@ -1,0 +1,42 @@
+#home{
+
+    height: 100vh;
+    background: #ffffff;
+
+}
+
+#homeimg{
+
+    float: right;
+    margin-right: 0;
+    margin-left: 10%;
+    height: 85vh;
+
+}
+
+#homeContainer1{
+
+    display: flex;
+    flex-flow: wrap;
+    position:absolute;
+    height: 92.0%;
+    bottom: 0;
+
+}
+
+#home_row1{
+    height: 100%;
+}
+
+#home_imageDiv{
+    padding-bottom:0;
+    margin-bottom: 0;
+
+}
+
+#home_col2{
+    align-self: flex-end;
+}
+
+#home_col1{
+}
