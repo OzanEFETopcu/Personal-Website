@@ -1,11 +1,11 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
-import Logo from './Pictures/Logo(inverted).jpg'
+import Logo from './Pictures/Logo(inverted2) (1).jpg'
 
 export default function NavbarBS(){
   return (
     <>
-      <Navbar bg="black" variant="dark">
+      <Navbar bg="dark" variant="dark">
           <Container>
               <Navbar.Brand>
                 <img src={Logo} alt="Logo" width={40} />
