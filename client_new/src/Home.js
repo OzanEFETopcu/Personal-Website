@@ -8,8 +8,6 @@ export default function Home() {
     <>
         <div id='home'>
 
-            <NavbarBS/>
-
             <div className='container-fluid' id='homeContainer1'>
 
                 <div className='row flex align-items-center justify-content-center' id='home_row1'>

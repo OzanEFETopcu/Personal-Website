@@ -5,7 +5,7 @@ import Logo from './Pictures/Logo(inverted2) (1).jpg'
 export default function NavbarBS(){
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" sticky="top">
           <Container>
               <Navbar.Brand>
                 <img src={Logo} alt="Logo" width={40} />

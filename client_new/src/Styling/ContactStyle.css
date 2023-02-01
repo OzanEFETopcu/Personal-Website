@@ -1,6 +1,32 @@
 #contact{
 
-    height: 20vh;
+    height: 15vh;
     background: #181818;
+    display: flex;
 
+}
+
+#contactContainer1{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+#contact_col2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+#contact_row1_1{
+    font-size: xx-large;
+}
+
+#contact_col1{
+    padding-left: 40px;
+}
+
+#contact_row1_2{
+    color: #a2a5a8 !important;
 }
