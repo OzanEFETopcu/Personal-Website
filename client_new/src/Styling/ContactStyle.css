@@ -30,3 +30,9 @@
 #contact_row1_2{
     color: #a2a5a8 !important;
 }
+
+#contact_row2_1{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
