@@ -1,7 +1,8 @@
 import React from 'react'
 import './Styling/ContactStyle.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faMailForward } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Contact() {
   return (
@@ -22,21 +23,20 @@ export default function Contact() {
             <div className='col' id='contact_col2'>
               <div className='row' id='contact_row2_1'>
 
-                <div className='col-10'>
+                <div className='col' id='contact_row2_1_col_1'>
                   +358 40 3613908
                 </div>
-                <div className='col-2'>
+                <div className='col'>
                   <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
                 </div>
 
               </div>
               <div className='row' id='contact_row2_2'>
 
-                <div className='col-10'>
-                  ozanefe.topcu@gmail.com
-                </div>
-                <div className='col-2'>
-                  <FontAwesomeIcon icon={faMailForward}></FontAwesomeIcon>
+                <div className='col p-0'>
+                  <p>ozanefe.topcu@gmail.com</p>                </div>
+                <div className='col'>
+                  <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                 </div>
 
               </div>

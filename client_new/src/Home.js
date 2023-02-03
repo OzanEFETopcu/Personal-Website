@@ -1,5 +1,4 @@
 import React from 'react'
-import NavbarBS from './NavbarBS'
 import './Styling/HomeStyle.css'
 import HomeImage from './Pictures/personalpic.png'
 

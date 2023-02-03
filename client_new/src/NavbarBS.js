@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import Logo from './Pictures/Logo(inverted2) (1).jpg'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function NavbarBS(){
   return (
@@ -17,6 +18,10 @@ export default function NavbarBS(){
                   <Nav.Link href="#projects">Projects</Nav.Link>
                   <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav>
+              <div>
+                <FontAwsomeIcon icon={faLinkedin}></FontAwsomeIcon>
+                <FontAwsomeIcon icon={faGithub}></FontAwsomeIcon>
+              </div>
           </Container>
       </Navbar>
     </>
