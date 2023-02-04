@@ -20,14 +20,17 @@
     display: flex;
     flex-flow: wrap;
     position:absolute;
-    height: 92.0%;
     bottom: 0;
+    top: 0;
+    padding-right: 0;
 
 }
 
 #home_row1{
+    position: absolute;
     height: 100%;
     bottom: 0;
+    width: 100%;
 }
 
 #home_imageDiv{
@@ -38,7 +41,50 @@
 
 #home_col2{
     align-self: flex-end;
+    padding-right: 0;
+}
+
+
+
+#outer_box2{
+    background-color: rgba(211, 202, 247, 0.878);
+    display: flex;
+}
+
+
+#outer_box1{
+    background-color: rgb(169, 107, 107);
+    display: flex;
+    position: static;
+    width: 80vw;
+    height: 65vh;
+}
+
+#name_title{
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+#sub_title{
+    font-size: 35px;
+    margin-bottom: 0;
 }
 
 #home_col1{
+    padding-left: 100px;
+}
+
+#vertical_line{
+    width: 4px;
+    opacity: 1;
+}
+
+#home_text{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#custom-outline{
+    border-width: 4px;
+    font-size: larger;
 }

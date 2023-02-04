@@ -34,7 +34,8 @@ export default function Contact() {
               <div className='row' id='contact_row2_2'>
 
                 <div className='col p-0'>
-                  <p>ozanefe.topcu@gmail.com</p>                </div>
+                  <p>ozanefe.topcu@gmail.com</p>
+                </div>
                 <div className='col'>
                   <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                 </div>
