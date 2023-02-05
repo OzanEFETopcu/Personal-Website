@@ -72,6 +72,8 @@
 
 #home_col1{
     padding-left: 100px;
+    align-self: flex-start;
+    padding-top: 10vh;
 }
 
 #vertical_line{
