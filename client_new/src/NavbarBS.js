@@ -19,7 +19,7 @@ export default function NavbarBS(){
         }
       `}
     </style>
-      <Navbar bg="dark" variant="dark" sticky="top" className='py-3'>
+      <Navbar bg="dark" variant="dark" sticky="top" className='py-2'>
           <Container>
               <Navbar.Brand>
                 <img src={Logo} alt="Logo" width={50} />
