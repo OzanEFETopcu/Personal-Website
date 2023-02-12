@@ -26,6 +26,7 @@
 
 #about_row1{
     height: 100%;
+    width: 100%;
     position: absolute;
 }
 
@@ -47,4 +48,8 @@
     right:0;
     align-self: center;
 
+}
+
+#about_col2{
+    padding-bottom: 40vh;
 }

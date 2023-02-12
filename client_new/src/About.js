@@ -1,6 +1,7 @@
 import React from 'react'
 import './Styling/AboutStyle.css'
 import AboutImage from './Pictures/personalpic2_1.jpg'
+import About_Text from './About_Text'
 
 export default function About() {
   return (
@@ -17,19 +18,14 @@ export default function About() {
 
             <div className='row flex align-items-center justify-content-center' id='about_row1'>
 
-
-
-              <div className='col flex-shrink' id='about_col1'>
+              <div className='col-md-5 flex-shrink' id='about_col1'>
                   <div className='justify-content-center' id="about_imageDiv">
                       <img src={AboutImage} alt='Landing Page Pic' id='aboutimg'/>
                   </div>
               </div>
 
-              <div className='col text-dark' id='about_col2'>
-                  This is my test landing page. These letters dont mean anything.
-                  Typing more so that I can check how it looks on the website.
-                  More and more letters are flowing through my website. So how is everybody?
-                  Hope this works really good.
+              <div className='col-md-7 text-dark' id='about_col2'>
+                <About_Text/>
               </div>
 
             </div>
