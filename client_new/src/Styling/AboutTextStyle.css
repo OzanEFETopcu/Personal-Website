@@ -1,3 +1,29 @@
 #section_button{
     margin-bottom: 10vh;
 }
+
+.about_button{
+    margin-right: 4vw;
+    border: none;
+    background-color: aliceblue;
+
+}
+
+.about_button:hover{
+    color: rgb(100, 100, 100);
+}
+
+.active{
+    transform: translateY(-2vh);
+}
+
+.active::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    bottom: -5px;
+    left: 0;
+}

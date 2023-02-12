@@ -3,15 +3,21 @@ import './Styling/AboutTextStyle.css'
 
 
 function About_Text() {
-    const [selectedSection, setSelectedSection] = useState('education');
+    const [selectedSection, setSelectedSection] = useState('skills');
+    const [selectedButton, setSelectedButton] = useState(null);
+
+    const handleClick = (button) =>{
+        setSelectedButton(button);
+        setSelectedSection(button)
+    }
 
     return (
       <>
 
         <div className='row-md-4' id='section_button'>
-            <button onClick={() => setSelectedSection('education')}>Education</button>
-            <button onClick={() => setSelectedSection('skills')}>Skills</button>
-            <button onClick={() => setSelectedSection('general')}>General</button>
+            <button onClick={() => handleClick('skills')} className={`about_button fw-bold fs-5 ${selectedSection === 'skills' ? 'active' : ''}`}>Skills</button>
+            <button onClick={() => handleClick('education')} className={`about_button fw-bold fs-5 ${selectedSection === 'education' ? 'active' : ''}`}>Education</button>
+            <button onClick={() => handleClick('general')} className={`about_button fw-bold fs-5 ${selectedSection === 'general' ? 'active' : ''}`}>General</button>
         </div>
 
         <div className='row-md-4'>
