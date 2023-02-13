@@ -42,14 +42,16 @@ export default function Projects() {
 
             <div className='row flex' id='projectsrow1'>
               <div className='project_div1'>
-                <div class="layer1">
-                  <div className='text-white p-5'>
-                    <p>This is my first project. This paragraph will be changed later. OOGA BOOGA</p>
+                <a href="https://github.com/OzanEFETopcu/AI-and-ML-projects" className='text-decoration-none' id='link'>
+                  <div class="layer1">
+                    <div className='text-white p-5'>
+                      <p>This is my first project. This paragraph will be changed later. OOGA BOOGA</p>
+                    </div>
+                    <div>
+                      <img src={Project1} alt='Project3 Image' id='project1_img'/>
+                    </div>
                   </div>
-                  <div>
-                    <img src={Project1} alt='Project3 Image' id='project1_img'/>
-                  </div>
-                </div>
+                </a>
               </div>
             </div>
 
