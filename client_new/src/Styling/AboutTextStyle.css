@@ -1,11 +1,12 @@
 #section_button{
+    margin-top: 4vh;
     margin-bottom: 10vh;
 }
 
 .about_button{
     margin-right: 4vw;
     border: none;
-    background-color: aliceblue;
+    background-color: #cfcfdc00;
     transition: 0.5s ease;
 
 }

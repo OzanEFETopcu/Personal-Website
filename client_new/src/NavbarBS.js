@@ -31,10 +31,10 @@ export default function NavbarBS(){
                   <Nav.Link href="#projects">Projects</Nav.Link>
                   <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav>
-                <Nav.Link href="https://www.linkedin.com/in/ozan-topcu-899b59189/">
+                <Nav.Link href="https://www.linkedin.com/in/ozan-topcu-899b59189/" target="_blank">
                   <FontAwesomeIcon icon={faLinkedin} className="LinkedIn"></FontAwesomeIcon>
                 </Nav.Link>
-                <Nav.Link href="https://github.com/OzanEFETopcu">
+                <Nav.Link href="https://github.com/OzanEFETopcu" target="_blank">
                   <FontAwesomeIcon icon={faGithub} className="Github ms-3"></FontAwesomeIcon>
                 </Nav.Link>
           </Container>

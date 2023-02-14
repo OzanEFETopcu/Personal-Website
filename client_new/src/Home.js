@@ -30,7 +30,7 @@ export default function Home() {
                                         A passionate Turkish Software Developer that thrives out of his comfort zone. Determined to have an impact on the industry
                                         and future generations.
                                     </p>
-                                    <a href='.' download="Resume.docx">
+                                    <a href='./CV/Ozan_Topcu_CV.pdf' target={'_blank'}>
                                     <Button variant='outline-dark' id='custom-outline'>My CV</Button>
                                     </a>
                                 </div>
