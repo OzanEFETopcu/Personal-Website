@@ -1,7 +1,8 @@
 #about{
 
     height: 110vh;
-    background: #181818;
+    /*background: #002c7e;*/
+    background: linear-gradient(rgba(30, 20, 87, 0.6), #e0e0e0);
 
 }
 
@@ -9,7 +10,7 @@
 
     align-self: center;
     float: right;
-    height: 60vh;
+    height: 70vh;
     border-radius: 50%;
 
 }
@@ -41,7 +42,8 @@
 #background_circle{
 
     position: absolute;
-    background-color: aliceblue;
+    /*background-color: rgb(240, 248, 255);*/
+    background: linear-gradient(rgb(240, 248, 255, 0.6), #e0e0e0);
     border-radius: 50%;
     width: 150vh;
     height: 150vh;
