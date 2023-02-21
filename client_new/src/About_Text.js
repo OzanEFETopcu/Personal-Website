@@ -52,7 +52,7 @@ function About_Text() {
                             <FontAwesomeIcon icon={faLinux} className="Github ms-3"></FontAwesomeIcon>
                             <h4>Linux:</h4>
                             <p>Experience using Debian and Ubuntu - Bash Scripting - Vim/Nano - Backup and Restoring Data -
-                                Network Management(Packet Canpturing/WANs,VLANs,VPNs)
+                                Network Management(Packet Capturing/WANs,VLANs,VPNs)
                             </p>
                         </div>
                     </div>
