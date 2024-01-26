@@ -20,7 +20,7 @@ function About_Text() {
             <button onClick={() => handleClick('general')} className={`about_button fw-bold fs-5 ${selectedSection === 'general' ? 'active1' : ''}`}>General</button>
         </div>
 
-        <div className='row-md-4'>
+        <div className='row-md-4' id='general_text'>
             {selectedSection === 'education' && (
             <div>
 
@@ -46,61 +46,61 @@ function About_Text() {
             {selectedSection === 'skills' && (
             <div>
 
-                <div className='row'>
-                    <div className='column' style={{width: '15vw'}}>
-                        <div>
-                            <FontAwesomeIcon icon={faLinux} className="Github ms-3"></FontAwesomeIcon>
-                            <h4>Linux:</h4>
-                            <p>Experience using Debian and Ubuntu - Bash Scripting - Vim/Nano - Backup and Restoring Data -
-                                Network Management(Packet Capturing/WANs,VLANs,VPNs)
-                            </p>
+                    <div className='row justify-content-center'>
+                        <div className='col-md-4'>
+                            <div>
+                                <FontAwesomeIcon icon={faLinux} className="Github ms-3"></FontAwesomeIcon>
+                                <h4>Linux:</h4>
+                                <p>Experience using Debian and Ubuntu - Bash Scripting - Vim/Nano - Backup and Restoring Data -
+                                    Network Management(Packet Capturing/WANs,VLANs,VPNs)
+                                </p>
+                            </div>
+                        </div>
+                        <div className='col-md-4'>
+                            <div>
+                                <FontAwesomeIcon icon={faPython} className="Github ms-3"></FontAwesomeIcon>
+                                <h4>Python:</h4>
+                                <p>Experience with scientific IDEs like Jupyter and Spyder - Scikit Learn - Numpy & Pandas - Prediction Algorithms(ANN-CNN) -
+                                    Data Management
+                                </p>
+                            </div>
+                        </div>
+                        <div className='col-md-4'>
+                            <div>
+                                <FontAwesomeIcon icon={faReact} className="Github ms-3"></FontAwesomeIcon>
+                                <FontAwesomeIcon icon={faBootstrap} className="Github ms-3"></FontAwesomeIcon>
+                                <h4>React & Bootstrap:</h4>
+                                <p>Usage of React Hooks(useState/useEffect) - Styling with Bootstrap Components/Utilities - JSX - Redux
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div className='column' style={{width: '15vw'}}>
-                        <div>
-                            <FontAwesomeIcon icon={faPython} className="Github ms-3"></FontAwesomeIcon>
-                            <h4>Python:</h4>
-                            <p>Experience with scientific IDEs like Jupyter and Spyder - Scikit Learn - Numpy & Pandas - Prediction Algorithms(ANN-CNN) -
-                                Data Management
-                            </p>
-                        </div>
-                    </div>
-                    <div className='column' style={{width: '15vw'}}>
-                        <div>
-                            <FontAwesomeIcon icon={faReact} className="Github ms-3"></FontAwesomeIcon>
-                            <FontAwesomeIcon icon={faBootstrap} className="Github ms-3"></FontAwesomeIcon>
-                            <h4>React & Bootstrap:</h4>
-                            <p>Usage of React Hooks(useState/useEffect) - Styling with Bootstrap Components/Utilities - JSX - Redux
-                            </p>
-                        </div>
-                    </div>
-                </div>
 
-                <div className='row'>
-                    <div className='column' style={{width: '15vw'}}>
-                        <div>
-                            <FontAwesomeIcon icon={faGitAlt} className="Github ms-3"></FontAwesomeIcon>
-                            <h4>Git:</h4>
-                            <p>Version control on cloud(GitHub/GitLab) - Branch Management - Logging - CI/CD
-                            </p>
+                    <div className='row justify-content-center'>
+                        <div className='col-md-4' >
+                            <div>
+                                <FontAwesomeIcon icon={faGitAlt} className="Github ms-3"></FontAwesomeIcon>
+                                <h4>Git:</h4>
+                                <p>Version control on cloud(GitHub/GitLab) - Branch Management - Logging - CI/CD
+                                </p>
+                            </div>
+                        </div>
+                        <div className='col-md-4' >
+                            <div>
+                                <FontAwesomeIcon icon={faJava} className="Github ms-3"></FontAwesomeIcon>
+                                <h4>Java:</h4>
+                                <p>OOP - Data Structures & Algorithms(Linked Lists-Binary Trees-Queues-Stacks) - Var/Args
+                                </p>
+                            </div>
+                        </div>
+                        <div className='col-md-4' >
+                            <h3>And Others...</h3>
+                            <FontAwesomeIcon icon={faGithub} className="Github ms-3"></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faJs} className="Github ms-3"></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faDocker} className="Github ms-3"></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faAws} className="Github ms-3"></FontAwesomeIcon>
                         </div>
                     </div>
-                    <div className='column' style={{width: '15vw'}}>
-                        <div>
-                            <FontAwesomeIcon icon={faJava} className="Github ms-3"></FontAwesomeIcon>
-                            <h4>Java:</h4>
-                            <p>OOP - Data Structures & Algorithms(Linked Lists-Binary Trees-Queues-Stacks) - Var/Args
-                            </p>
-                        </div>
-                    </div>
-                    <div className='column' style={{width: '15vw'}}>
-                        <h3>And Others...</h3>
-                        <FontAwesomeIcon icon={faGithub} className="Github ms-3"></FontAwesomeIcon>
-                        <FontAwesomeIcon icon={faJs} className="Github ms-3"></FontAwesomeIcon>
-                        <FontAwesomeIcon icon={faDocker} className="Github ms-3"></FontAwesomeIcon>
-                        <FontAwesomeIcon icon={faAws} className="Github ms-3"></FontAwesomeIcon>
-                    </div>
-                </div>
             </div>
             )}
             {selectedSection === 'general' && (

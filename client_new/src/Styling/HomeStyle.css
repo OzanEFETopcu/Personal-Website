@@ -1,92 +1,95 @@
-#home{
-
-    height: 100vh;
+#home {
+    display: flex;
+    max-height: fit-content;
+    min-height: 100vh;
     background: #e0e0e0;
     position: relative;
 
 }
 
-#homeimg{
-
-    float: right;
-    margin-right: 0;
-    margin-left: 10%;
+#homeimg {
     height: 85vh;
-
+    padding-right: 10vw;
+    margin-left: 10vw;
 }
 
-#homeContainer1{
+#homeContainer1 {
 
     display: flex;
     flex-flow: wrap;
-    position:absolute;
+    position: absolute;
     bottom: 0;
     top: 0;
     padding-right: 0;
 
 }
 
-#home_row1{
+#home_row1 {
     position: absolute;
     height: 100%;
     bottom: 0;
     width: 100%;
 }
 
-#home_imageDiv{
-    padding-bottom:0;
-    margin-bottom: 0;
 
-}
-
-#home_col2{
-    align-self: flex-end;
-    padding-right: 0;
-}
-
-
-
-#outer_box2{
-    background-color: rgba(211, 202, 247, 0.878);
-    display: flex;
-}
-
-
-#outer_box1{
-    background-color: #a96b6b;
-    display: flex;
-    position: static;
-    width: 80vw;
-    height: 65vh;
-}
-
-#name_title{
+#name_title {
     font-size: 100px;
     margin-bottom: 50px;
 }
 
-#sub_title{
+#sub_title {
     font-size: 35px;
     margin-bottom: 0;
 }
 
-#home_col1{
-    padding-left: 100px;
-    align-self: flex-start;
-    padding-top: 10vh;
-}
 
-#vertical_line{
+#vertical_line {
     width: 4px;
     opacity: 1;
+    margin-right: 1vw;
 }
 
-#home_text{
+#home_text {
     font-size: 30px;
     font-weight: 400;
 }
 
-#custom-outline{
+#custom-outline {
     border-width: 4px;
     font-size: larger;
+}
+
+
+@media screen and (max-width: 1300px) {
+    #box2 {
+        display: none;
+    }
+}
+
+
+#box1 {
+    z-index: 2;
+    background-color: #a96b6b;
+    position: absolute;
+    top: 20;
+    left: 0;
+    max-width: 75vw;
+    display: flex;
+    padding-left: 1vw;
+    margin-top: 1vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+
+#box2 {
+    z-index: 1;
+    background: linear-gradient(to bottom,
+    rgba(211, 202, 247, 0.878) 80%,
+    #e0e0e0 100%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-width: fit-content;
+    max-width: 60vw;
 }

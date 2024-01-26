@@ -9,8 +9,7 @@ export default function About() {
         <div id="about">
 
           <div className='container-fluid' id='aboutContainer1'>
-
-
+            
             <div style={{ overflow: 'hidden', position:'absolute',
                           width:'100%', top:'0', bottom:'0', display: 'flex' }}>
               <div id='background_circle'></div>
@@ -24,7 +23,7 @@ export default function About() {
                   </div>
               </div>
 
-              <div className='col-md-7 text-dark' id='about_col2'>
+              <div className='col-md-7' id='about_col2'>
                 <About_Text/>
               </div>
 
