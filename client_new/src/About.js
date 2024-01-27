@@ -9,7 +9,6 @@ export default function About() {
         <div id="about">
 
           <div className='container-fluid' id='aboutContainer1'>
-            
             <div style={{ overflow: 'hidden', position:'absolute',
                           width:'100%', top:'0', bottom:'0', display: 'flex' }}>
               <div id='background_circle'></div>
