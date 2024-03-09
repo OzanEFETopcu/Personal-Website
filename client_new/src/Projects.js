@@ -14,7 +14,9 @@ export default function Projects() {
           <div>
             <a href="https://github.com/OzanEFETopcu/DevOps-Software-Production" target="_blank" className='text-decoration-none single_project layer1'>
               <div className='project_image'><img src={Project1} alt='Project1 Image' id='img1' /></div>
-              <div className='project_text'><p>Using DevOps Web development methods and practicing with a Web Software project. Version control,
+              <div className='project_text'>
+                <p className="project_title">Using DevOps Web development methods</p>
+                <p>Using DevOps Web development methods and practicing with a Web Software project. Version control,
                 Docker, Testing automation, CI/CD Pipeline, deployment process.</p>
                 <p id='with_arrow1'>GitHub Repo</p> </div>
             </a>
@@ -22,7 +24,9 @@ export default function Projects() {
           <div>
             <a href="https://github.com/OzanEFETopcu/Embedded-Systems" target="_blank" className='text-decoration-none single_project layer1'>
               <div className='project_image'><img src={Project2} alt='Project2 Image' id='img2' /></div>
-              <div className='project_text'><p>Advanced C and C++ microcontroller programming. CPU peripherals, interfaces (I2C, Spi, Uart).
+              <div className='project_text'>
+                <p className='project_title'>Advanced C and C++ microcontroller programming</p>
+                <p>Advanced C and C++ microcontroller programming. CPU peripherals, interfaces (I2C, Spi, Uart).
                 Connecting to real life IO (LCD, keyboard, sensors, actuators).</p>
                 <p id='with_arrow1'>GitHub Repo</p> </div>
             </a>
@@ -30,7 +34,9 @@ export default function Projects() {
           <div>
             <a href="https://github.com/OzanEFETopcu/AI-and-ML-projects" target="_blank" className='text-decoration-none single_project layer1'>
               <div className='project_image'><img src={Project3} alt='Project3 Image' id='img2' /></div>
-              <div className='project_text'><p>Set of different Artificial Intelligence and Machine Learning projects using algorithms like several Regression methods,
+              <div className='project_text'>
+                <p className="project_title">Set of different AI and ML projects</p>
+                <p>Set of different Artificial Intelligence and Machine Learning projects using algorithms like several Regression methods,
                 Decision Trees/Random Forests for supervised learning and Artificial Neural Network, Convolutional Neural Network,
                 Clustering for unsupervised learning</p>
                 <p id='with_arrow1'>GitHub Repo</p> </div>
@@ -39,7 +45,9 @@ export default function Projects() {
           <div>
             <a href="https://github.com/OzanEFETopcu/DroneTransportation" target="_blank" className='text-decoration-none single_project layer1'>
               <div className='project_image'><img src={Project4} alt='Project4 Image' id='img4' /></div>
-              <div className='project_text'><p>Drone Fleet Management Architecture written in Java(Spring Boot), React, and
+              <div className='project_text'>
+                <p className="project_title">Drone Fleet Management Architecture</p>
+                <p>Drone Fleet Management Architecture written in Java(Spring Boot), React, and
                 uses MQ communication for individual drones. There are multiple frontend implementation for both system administrators to
                 visualize drone status and for customers to actually place orders to the system. In addition the backend automatically manages
                 drones, their destination, status, and their commands. I also created a database to store the travel information of drones and individual

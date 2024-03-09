@@ -1,63 +1,69 @@
-#projects{
+#projects {
     background: #F4F1DE;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
-#projectsContainer1{
-    display: flex;
+#projectsContainer1 {
+    /*display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-around;*/
 }
 
-.single_project{
+.single_project {
+    width: 95vw !important;
     background: #181212;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 1vw;
-    width: 500px;
     align-items: center;
     border-radius: 2rem;
     padding: 2vh 1vw;
 }
-@media screen and (max-width: 768px) {
-    .single_project {
-        width: 95vw;
-        margin: 1vw; /* Full width on smaller screens */
-    }
-}
-.project_text{
-    color: #181212;
-    display: flex;
-    align-items:flex-end;
-    flex-direction: column;
+
+
+
+.project_text {
+    color: #101841;
     background: #F4F1DE;
     border-radius: 2rem;
     padding: 2vh 2vw;
     font-weight: 500;
-}
-#img1{
-    width: 20vw;
-    border-radius: 2rem;
-}
-#img2{
-    width: 20vw;
-    border-radius: 2rem;
-    margin-bottom: 2vh;
-}
-#img4{
-    width: 15vw;
-    border-radius: 2rem;
-    margin-bottom: 2vh;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.layer1{
+.project_title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #101841;
+}
+
+#img1 {
+    width: 10vw;
+    margin-right: 2vw;
+}
+
+#img2 {
+    width: 10vw;
+    margin-right: 2vw;
+}
+
+#img4 {
+    width: 10vw;
+    margin-right: 2vw;
+}
+
+.layer1 {
     background: #E07A5F;
     transition: background-color 0.5s ease;
 }
 
-.page-title{
+.page-title {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 5vw;
@@ -65,21 +71,22 @@
 }
 
 
-#with_arrow1::before{
+#with_arrow1::before {
     content: "";
     display: inline-block;
     width: 0;
     height: 0;
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
-    border-right: 12px solid black; /* change the color and size as needed */
-    margin-right: 10px; /* change the margin as needed */
+    border-right: 12px solid black;
+    /* change the color and size as needed */
+    margin-right: 10px;
+    /* change the margin as needed */
 
 }
 
-#with_arrow1{
+#with_arrow1 {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-

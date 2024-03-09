@@ -17,7 +17,6 @@ function About_Text() {
         <div className='row-md-4' id='section_button'>
             <button onClick={() => handleClick('skills')} className={`about_button fw-bold fs-5 ${selectedSection === 'skills' ? 'active1' : ''}`}>Skills</button>
             <button onClick={() => handleClick('education')} className={`about_button fw-bold fs-5 ${selectedSection === 'education' ? 'active1' : ''}`}>Education</button>
-            <button onClick={() => handleClick('general')} className={`about_button fw-bold fs-5 ${selectedSection === 'general' ? 'active1' : ''}`}>General</button>
         </div>
 
         <div className='row-md-4' id='general_text'>
@@ -101,22 +100,6 @@ function About_Text() {
                             <FontAwesomeIcon icon={faAws} className="Github ms-3"></FontAwesomeIcon>
                         </div>
                     </div>
-            </div>
-            )}
-            {selectedSection === 'general' && (
-            <div>
-                <p>
-                Hey! My name is Ozan Topcu, I am a second-year Software Engineering student at TAMK. I've been <br></br>living in Finland for a year now and
-                it has been one of the best years of all time. I've met with an <br></br>incredible amount of people from all around the world who have unique
-                stories and experiences, at <br></br>the same time I got to experience the hardships of living by myself and learning to stand on my feet. <br></br>All in all, my
-                experience here in general thought me how to become a responsible and outgoing person.
-
-                <br></br><br></br>In my free time, I usually like to get out with friends to try out new cafés and restaurants; furthermore, <br></br>when we have the chance usually try to
-                travel to different countries for even more unique adventures. <br></br>I really find it exhilarating to experience things that can either improve me as a
-                person or provide me with <br></br>different perspectives. I do like to cook for myself and my loved ones occasionally and I do make a <br></br>mean risotto.
-
-                <br></br><br></br>In the end, I would describe myself as being sincere, trust-worthy, and most importantly joyful person to <br></br>have around.
-                </p>
             </div>
             )}
         </div>

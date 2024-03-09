@@ -1,6 +1,5 @@
 #about {
-
-    height: 110vh;
+    height: auto;
     /*background: #002c7e;*/
     background: linear-gradient(to bottom,
             #F4F1DE,
@@ -8,16 +7,13 @@
             rgba(61, 64, 91, 0.6),
             rgba(61, 64, 91, 0.47),
             #F4F1DE);
-
 }
 
 #aboutimg {
-
     align-self: center;
     float: right;
     height: 70vh;
     border-radius: 50%;
-
 }
 
 @media screen and (max-width: 1300px) {
@@ -35,21 +31,13 @@
     }
 }
 
-@media screen and (max-width: 780px) {
-    #about {
-        height: 140vh;
-    }
-}
-
 
 #aboutContainer1 {
-
     display: flex;
     flex-flow: wrap;
     position: relative;
     height: 100%;
     justify-content: flex-end;
-
 }
 
 #about_row1 {
@@ -65,6 +53,12 @@
     padding-bottom: 0;
     margin-bottom: 0;
 
+}
+
+@media screen and (max-width: 800px) {
+    #background_circle{
+        display: none;
+    }
 }
 
 #background_circle {
