@@ -1,6 +1,6 @@
 import React from 'react'
 import './Styling/HomeStyle.css'
-import HomeImage from './Pictures/personalpic.png'
+import HomeImage from './Pictures/Picture4.png'
 import Button from 'react-bootstrap/Button';
 import Pdf from './CV/Ozan_Topcu_CV.pdf';
 
@@ -32,11 +32,9 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
+                <img src={HomeImage} alt='Landing Page Pic' id='homeimg' />
 
-                {/*Box that has the image*/}
-                <div id='box2'>
-                    <img src={HomeImage} alt='Landing Page Pic' id='homeimg' />
-                </div>
+                <div id='box2'><p>&nbsp;</p></div>
                 {/*
                 <div className='container-fluid' id='homeContainer1'>
 

@@ -8,10 +8,13 @@
 }
 
 #homeimg {
-    height: 85vh;
+    height: 65vh;
     padding-right: 10vw;
     margin-left: 10vw;
     z-index: 3;
+    position: absolute;
+    bottom: 10%;
+    right: 0;
 }
 
 #homeContainer1 {
@@ -94,6 +97,8 @@
 
 
 #box2 {
+    height: 80vh;
+    width: 50vw;
     z-index: 1;
     background: linear-gradient(to bottom,
     #3D405B 80%,
@@ -101,6 +106,5 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    min-width: fit-content;
-    max-width: 60vw;
+
 }
