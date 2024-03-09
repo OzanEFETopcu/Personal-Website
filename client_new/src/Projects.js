@@ -1,15 +1,15 @@
 import React from 'react'
 import './Styling/ProjectsStyle.css'
 import Project1 from './Pictures/ci-cd-project.png'
-import Project2 from './Pictures/embedded_project.png'
-import Project3 from './Pictures/AI_Project_pic.png'
+import Project2 from './Pictures/arduino.png'
+import Project3 from './Pictures/randomForest.png'
 import Project4 from './Pictures/pngegg.png'
 
 export default function Projects() {
   return (
     <>
       <div id="projects">
-
+        <h1 className="page-title">Projects</h1>
         <div id='projectsContainer1'>
           <div>
             <a href="https://github.com/OzanEFETopcu/DevOps-Software-Production" target="_blank" className='text-decoration-none single_project layer1'>
@@ -50,12 +50,12 @@ export default function Projects() {
           </div>
         </div>
         <div>
-            <a href="https://github.com/OzanEFETopcu/DroneTransportation" target="_blank" className='text-decoration-none single_project layer1' style={{ width: '95vw'}}>
-              <div className='project_text' style={{ marginBottom: 0, width: '85vw', alignItems: 'center'}}><p>
-                For more: My GitHub Page
-              </p> </div>
-            </a>
-          </div>
+          <a href="https://github.com/OzanEFETopcu/DroneTransportation" target="_blank" className='text-decoration-none single_project layer1' style={{ width: '95vw' }}>
+            <div className='project_text' style={{ marginBottom: 0, width: '85vw', alignItems: 'center' }}><p style={{ fontSize: 25, margin: 0 }}>
+              For more: My GitHub Page
+            </p> </div>
+          </a>
+        </div>
       </div>
     </>
   )

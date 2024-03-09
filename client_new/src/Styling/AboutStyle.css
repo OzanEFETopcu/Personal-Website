@@ -3,11 +3,11 @@
     height: 110vh;
     /*background: #002c7e;*/
     background: linear-gradient(to bottom,
-            #e0e0e0,
-            rgba(30, 20, 87, 0.47),
-            rgba(30, 20, 87, 0.6),
-            rgba(30, 20, 87, 0.47),
-            #e0e0e0);
+            #F4F1DE,
+            rgba(61, 64, 91, 0.47),
+            rgba(61, 64, 91, 0.6),
+            rgba(61, 64, 91, 0.47),
+            #F4F1DE);
 
 }
 
@@ -72,11 +72,11 @@
     left: 25vw;
     /*background-color: rgb(240, 248, 255);*/
     background: linear-gradient(to bottom,
-            #e0e0e0,
+            #F4F1DE,
             rgb(240, 248, 255, 0.145),
             rgb(240, 248, 255, 0.145),
             rgba(240, 248, 255, 0.145),
-            #e0e0e0);
+            #F4F1DE);
     border-radius: 50%;
     width: 160vh;
     height: 160vh;

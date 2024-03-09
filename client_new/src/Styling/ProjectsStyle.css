@@ -1,5 +1,8 @@
 #projects{
-    background: #e0e0e0;
+    background: #F4F1DE;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 #projectsContainer1{
@@ -29,7 +32,7 @@
     display: flex;
     align-items:flex-end;
     flex-direction: column;
-    background: #e0e0e0;
+    background: #F4F1DE;
     border-radius: 2rem;
     padding: 2vh 2vw;
     font-weight: 500;
@@ -50,13 +53,17 @@
 }
 
 .layer1{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #5f0606);
+    background: #E07A5F;
     transition: background-color 0.5s ease;
 }
 
-.layer1:hover{
-    background-color: rgba(108, 54, 255, 0.808);
+.page-title{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    color: #101841;
 }
+
 
 #with_arrow1::before{
     content: "";

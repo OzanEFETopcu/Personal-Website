@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
-import Logo from './Pictures/Logo(inverted2) (1).jpg'
+import Logo from './Pictures/LogoTransparent.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -9,12 +9,18 @@ export default function NavbarBS() {
     <>
       <style type='text/css'>
         {`
+        .navbar-brand,
+        .navbar,
+        .nav-link {
+          color: #101841 !important;
+          font-weight: 600;
+        }
         .LinkedIn{
-          color: white;
+          color: #101841;
           font-size: xxx-large;
         }
         .Github{
-          color: white;
+          color: #101841;
           font-size: xxx-large;
         }
         @media screen and (max-width: 800px) {
@@ -24,7 +30,7 @@ export default function NavbarBS() {
         }
       `}
       </style>
-      <Navbar bg="dark" variant="dark" sticky="top" className='py-2'id='navbar'>
+      <Navbar style={{ backgroundColor: '#81B29A', color: 'black'  }} variant="dark" sticky="top" className='py-2'id='navbar'>
         <Container>
           <Navbar.Brand>
             <img src={Logo} alt="Logo" width={50} />
