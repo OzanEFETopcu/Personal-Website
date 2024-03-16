@@ -1,6 +1,6 @@
 import React from 'react'
 import './Styling/HomeStyle.css'
-import HomeImage from './Pictures/Picture4.png'
+import HomeImage from './Pictures/landingImage.png'
 import Button from 'react-bootstrap/Button';
 import Pdf from './CV/Ozan_Topcu_CV.pdf';
 

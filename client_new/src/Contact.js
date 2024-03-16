@@ -16,7 +16,7 @@ export default function Contact() {
                 Contact Me
               </div>
               <div className='row' id='contact_row1_2'>
-                Copyright©2023, Ozan Efe Topcu, All rights reserved.
+                Copyright©2024, Ozan Efe Topcu, All rights reserved.
               </div>
             </div>
 
