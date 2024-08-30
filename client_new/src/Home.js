@@ -23,7 +23,7 @@ export default function Home() {
                             </p>
                         </div>
                         <p id='home_text'>
-                            A passionate Turkish Software Developer that thrives out of his comfort zone. Determined to have an impact on the industry
+                            A passionate Software Developer that thrives out of his comfort zone. Determined to have an impact on the industry
                             and future generations.
                         </p>
                         {/*CV Button*/}
