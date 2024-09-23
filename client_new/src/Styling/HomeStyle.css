@@ -75,8 +75,14 @@
         width: 95vw;
         height: 50vh;
     }
-    #homeimg{
+
+    #homeimg {
         display: none;
+    }
+
+    #badge {
+        bottom: 20vh !important;
+        right: 10vw !important;
     }
 }
 
@@ -101,10 +107,18 @@
     width: 50vw;
     z-index: 1;
     background: linear-gradient(to bottom,
-    #3D405B 80%,
-    #F4F1DE 100%);
+            #3D405B 80%,
+            #F4F1DE 100%);
     position: absolute;
     bottom: 0;
     right: 0;
+}
 
+#badge {
+    z-index: 4;
+    position: absolute;
+    bottom: 20vh;
+    right: 80vw;
+    border-width: 0;
+    height: 25vh;
 }
