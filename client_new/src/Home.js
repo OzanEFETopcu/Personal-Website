@@ -3,7 +3,7 @@ import './Styling/HomeStyle.css';
 import HomeImage from './Pictures/landingImage.png';
 import CertificateBadge from './Pictures/certificateBadge.png';
 import Button from 'react-bootstrap/Button';
-import Pdf from './CV/Ozan_Topcu_CV.pdf';
+import Pdf from './CV/Ozan_CV_3.pdf';
 
 export default function Home() {
 
